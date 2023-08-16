@@ -17,31 +17,34 @@
 
 </p>
 
-## Project Overview
-A cutting-edge payment gateway application called TrustTransact was created to improve the user experience for customers and businesses by streamlining payment procedures. Our main goal is to make payment transactions as simple as possible while upholding the highest standards of security and dependability. It is also prepared to be Dockerized.
+## 📋 Project Overview
+🌐 Introducing TrustTransact: A Cutting-Edge Payment Gateway Revolution 🚀
 
-## Key Features
+In a world where digital transactions are ubiquitous, TrustTransact emerges as a beacon of innovation. Created to enhance the user experience for both customers and businesses, it streamlines payment procedures with finesse. 💳💼 Our primary objective is to make payment transactions as simple as possible while upholding the highest standards of security and dependability. 🔒📈 It is also prepared to be Dockerized. 🐳
 
-* Customizable Integration: TrustTransact provides well-documented APIs for simple integration with e-commerce platforms since it is designed for easy connection.
+Step into the future of payments with TrustTransact! Join us on this transformative journey. 🚀🔍
+## 🔑 Key Features
 
-* Real-time Payment Status: Real-time information on payment statuses are provided, enabling merchants to keep track of transactions and giving customers rapid confirmation.
+* 🔌 Customizable Integration: TrustTransact provides well-documented APIs for simple integration with e-commerce platforms since it is designed for easy connection. 💻🌐
 
-* Callback Notifications: TrustTransact enables automated callback notifications, decreasing the need for manual status checks by informing merchants of successful or unsuccessful payments.
+* 🕒 Real-time Payment Status: Real-time information on payment statuses is provided, enabling merchants to keep track of transactions and giving customers rapid confirmation. 🚀💰
 
-## Technology Stack
-* Django: The dependable and adaptable Django framework, renowned for creating web applications, powers this backend.
+* 🔔 Callback Notifications: TrustTransact enables automated callback notifications, decreasing the need for manual status checks by informing merchants of successful or unsuccessful payments. 📲📊
 
-
-* RESTful API: Now, easy connection between TrustTransact and other systems is made possible by a skillfully structured RESTful API architecture. This system guarantees efficient, uniform data interchange, supporting interoperability.
-
-
-* Database Management: By using a strong relational database system, data integrity and scalability are both rigorously maintained.
+## 🔌 Technology Stack
+* Django: The dependable and adaptable Django framework, renowned for creating web applications, powers this backend. 🐍🌐
 
 
-* Celery: Utilizing the Celery library enables effective management of asynchronous processes, including notifications and status verifications.
+* RESTful API: Now, easy connection between TrustTransact and other systems is made possible by a skillfully structured RESTful API architecture. This system guarantees efficient, uniform data interchange, supporting interoperability. 🌐🔌
 
 
-<h2 align="center"><b>Technologies Used</b></h2>
+* Database Management: By using a strong relational database system, data integrity and scalability are both rigorously maintained. 🗃️🔒📈
+
+
+* Celery: Utilizing the Celery library enables effective management of asynchronous processes, including notifications and status verifications. 🌱🔧🚀
+
+
+<h2 align="center"><b>🛠️ Technologies Used</b></h2>
 
 <br>
     <p align="center">
@@ -55,16 +58,16 @@ A cutting-edge payment gateway application called TrustTransact was created to i
 
 ## Running The Project
 
-Feel free to dive into the world of the TrustTransact Project DevLog! 🚀 Experience the journey of crafting an innovative payment gateway solution, from concept to reality. Join us as we discuss the highs, lows, and turning points that characterize human development. Explore the DevLog right away to avoid missing out, and check back for interesting developments! [DevLog for Trust Transact](https://docflex.notion.site/docflex/TrustTransact-The-Payment-Gateway-e289fbe82b1f4c8ea3a944b4e94065e5)
+Feel free to dive into the world of the TrustTransact Project DevLog! 🚀 Experience the journey of crafting an innovative payment gateway solution, from concept to reality. Join us as we discuss the highs, lows, and turning points that characterize human development. Explore the DevLog right away to avoid missing out, and check back for interesting developments! 📖🌟 [DevLog for Trust Transact](https://docflex.notion.site/docflex/TrustTransact-The-Payment-Gateway-e289fbe82b1f4c8ea3a944b4e94065e5)
 
 
-### Step 1: Cloning the Repository
+### Step 1: Cloning the Repository 📥 
 
 ```
 git clone https://github.com/docflex/trust-transact.git
 ```
 
-### Step 2: Creating a Virtual Environment
+### Step 2: Creating a Virtual Environment 🌐 
 
 The reason why we do this is explained in the DevLog Mentioned Above. Please Check it out for a Deeper Dive into this Project.
 
@@ -77,19 +80,19 @@ Next, You will be needing to switch to the Virtual Environment. To do so, Run:
 source venv/bin/activate
 ```
 
-### Step 3: Installing the Dependencies
+### Step 3: Installing the Dependencies 📦
 
 ```
 pip install -r backend/requirements.txt
 ```
 
-### Step 4: Fixing Environment Variables
+### Step 4: Fixing Environment Variables 🔧
 
 ```
 cp env.template .env
 ```
 
-### Step 5: Make Migrations
+### Step 5: Make Migrations 🗂️
 
 ```
 cd backend
@@ -99,13 +102,13 @@ python3 manage.py makemigrations
 python3 manage.py migrate
 ```
 
-### Step 6: Run Server
+### Step 6: Run Server 🚀
 
 ```
 python3 manage.py runserver     
 ```
 
-### Step 7: Test Endpoints
+### Step 7: Test Endpoints 🧪
 
 Testing the createPayment Endpoint:
 ```
@@ -117,7 +120,7 @@ Testing the getPaymentStatus Endpoint:
 curl -X POST -H "Content-type: application/json" -d '{"order_id": "1000"}' 'http://127.0.0.1:8000/getPaymentStatus/'   
 ```
 
-### Step 8: Checking Database
+### Step 8: Checking Database 🗃️
 
 
 Open the Shell to Interact with the Database
