@@ -56,7 +56,7 @@ Step into the future of payments with TrustTransact! Join us on this transformat
     </p>
 <br/>
 
-## Running The Project
+## 🏃‍♂️Running The Project
 
 Feel free to dive into the world of the TrustTransact Project DevLog! 🚀 Experience the journey of crafting an innovative payment gateway solution, from concept to reality. Join us as we discuss the highs, lows, and turning points that characterize human development. Explore the DevLog right away to avoid missing out, and check back for interesting developments! 📖🌟 [DevLog for Trust Transact](https://docflex.notion.site/docflex/TrustTransact-The-Payment-Gateway-e289fbe82b1f4c8ea3a944b4e94065e5)
 
